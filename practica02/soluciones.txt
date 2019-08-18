@@ -1,0 +1,19 @@
+Línea 9: Se declaró un un tipo de dato booleaN, el cual está mal escrito. Lo cambié a boolean, el cual está escrito correctamente.
+
+Línea 9: La variable de tipo booleano recibía un 0. Cambié ese 0 por un false.
+
+Línea 10: LA variable de tipo byte recibía un valor fuera de su rango. Cambié este mismo por 127, el cual está dentro de su rango.
+
+Línea 11: La variable recibía un valor fuera de su rango. Cambié este mismo por -32768.
+
+Línea 14: La variable x1 usaba la variable Discriminate como un valor, pero esta está mal escrita. La escribí correctamente.
+
+Línea 14: La variable recibía un tipo de valor que no iba acorde con la operación. Cambié el tipo de valor a double.
+
+Línea 17: El tipo de dato de la variable está mal escrito. Lo escribí de la forma adecuada que es char.
+
+Línea 18: La variable la que está recibiendo un valor no estaba declarada desde antes. La cambié por ch1 la cual ya estaba declarada anteriormente.
+
+Línea 18: La variable de tipo char recibe un valor con comillas dobles. Las cambie por comillas simples ('').
+
+Línea 22: Declaramos una variable de tipo long ya que el valor no está en el rango del tipo int.
