@@ -16,7 +16,7 @@ public class Sintaxis {
 
 		char ch1, ch2;
 		ch1 = 'g'; ch2 = 'w';
-		int d = 1 / (a - 3);
+		int d = 1 / (a - 0);
 
 		// Declaraciones
         long var_1 = 2147483648L; //Agregar una L para que el compilador lo interprete como long. El tipo int no                               acepta valores tan grandes.
