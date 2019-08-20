@@ -16,4 +16,6 @@ Línea 18: La variable la que está recibiendo un valor no estaba declarada desd
 
 Línea 18: La variable de tipo char recibe un valor con comillas dobles. Las cambie por comillas simples ('').
 
+Límea 19: Cambiamos la resta ya que no puede dividir entre 0 
+
 Línea 22: Declaramos una variable de tipo long ya que el valor no está en el rango del tipo int.
