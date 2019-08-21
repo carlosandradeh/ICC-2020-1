@@ -1,0 +1,11 @@
+PrePOst.java explicación:
+
+Se va restando uno a uno del valor inicial de x por el --x
+
+En la línea 9, el --x resta 1 a 18 que era el valor en ese momento de x, y después muestra x, que ahora vale 17.
+En la línea 10, el x-- muestra primero el valor de x, que en ese momento es de 17 y después le resta 1. Por eso se repiten dos veces el 17 y el seiguiente valor es el 16. 
+
+
+Operadores.java explicación:
+
+Ambos son la misma división, el valor de las variables dividendoReal y dividendoEntero son 39. El valor de la división cambia ya que uno es flotante y permite obtener resultados con punto decimal. Y el otro deja el entero sólo, ya que es un numero entero y no permite los puntos decimales en el resultado de la división.. 
