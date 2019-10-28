@@ -26,7 +26,7 @@ public class Peon extends Pieza {
 			if (fila-1 >= 0) {
 				jugadas.add(new Posicion(fila, columna-1));
 			}
-			if (columna+1 >= 0 && fila-1 >= 0 ) {
+			if (columna+1 <= 7 && fila-1 >= 0 ) {
 				jugadas.add(new Posicion(fila+1, columna-1));
 			}
 			
@@ -37,7 +37,7 @@ public class Peon extends Pieza {
 				jugadas.add(new Posicion(fila, columna+2));
 			}
 
-			if (columna-1 >= 0 && fila+1 >= 0) {
+			if (columna-1 >= 0 && fila+1 <= 7) {
 				jugadas.add(new Posicion(fila-1, columna+1));
 			}
 
@@ -45,7 +45,7 @@ public class Peon extends Pieza {
 				jugadas.add(new Posicion(fila, columna+1));
 			}
 
-			if (columna+1 >= 0 && fila+1 >= 0) {
+			if (columna+1 <= 7 && fila+1 <= 7) {
 				jugadas.add(new Posicion(fila+1, columna+1));
 			}
 		}
