@@ -30,7 +30,7 @@ public class Dama extends Pieza {
 			}
 		}
 
-		for (int i = fila-1, j = columna+1; i >= 0 && j>=0 ; i--, j++ ) {
+		for (int i = fila-1, j = columna+1; i >= 0 && j<=7 ; i--, j++ ) {
 			Pieza p = tablero.obtenerPieza(i,j);
 			if (p != null) {
 				if (p.obtenerColor() != this.obtenerColor()) {
@@ -68,7 +68,7 @@ public class Dama extends Pieza {
 			}
 		}	
 		
-		for (int i = fila, j = columna+1; j>=0 ; j++ ) {
+		for (int i = fila, j = columna+1; j<=7 ; j++ ) {
 			Pieza p = tablero.obtenerPieza(i,j);
 			if (p != null) {
 				if (p.obtenerColor() != this.obtenerColor()) {
@@ -81,7 +81,7 @@ public class Dama extends Pieza {
 			
 		}	
 		
-		for (int i = fila+1, j = columna-1; i>= 0 && j>=0 ; i++, j--) {
+		for (int i = fila+1, j = columna-1; i<= 7 && j>=0 ; i++, j--) {
 			Pieza p = tablero.obtenerPieza(i,j);
 			if (p != null) {
 				if (p.obtenerColor() != this.obtenerColor()) {
@@ -104,7 +104,7 @@ public class Dama extends Pieza {
 			}
 		}
 		
-		for (int i = fila+1, j = columna+1; i>= 0 && j>=0 ; i++, j++) {
+		for (int i = fila+1, j = columna+1; i<=7 && j<=7 ; i++, j++) {
 			Pieza p = tablero.obtenerPieza(i,j);
 			if (p != null) {
 				if (p.obtenerColor() != this.obtenerColor()) {
